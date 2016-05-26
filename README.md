@@ -2,7 +2,7 @@
 
 + Getting Started
     + [Hello World](https://github.com/s15008/aoj/blob/master/TestHelloWorld.java)
-    + X Cubic
+    + [X Cubic](https://github.com/s15008/aoj/blob/master/TestXCubic.java)
     + Rectange
     + Watch
 
