@@ -1,15 +1,24 @@
 import static java.lang.System.out;
 
 class HelloWorld {
-    public void run() {
-        out.println( "Hello World");
+    private String msg;
+
+    HelloWorld(String msg) {
+        this.msg = msg;
+    }
+
+    HelloWorld() {
+        this("Hello World");
+    }
+
+    @Override
+    public String toString() {
+        return msg;
     }
 }
 
 public class TestHelloWorld {
     public static void main( String... args) {
-        HelloWorld test = new HelloWorld();
-        test.run();
+        out.println(new HelloWorld());
     }
 }
-
