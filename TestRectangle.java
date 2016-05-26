@@ -2,18 +2,26 @@ import java.util.Scanner;
 import static java.lang.System.out;
 
 class Rectangle {
-    public void run() {
-        Scanner scan = new Scanner( System.in);
-        int a = scan.nextInt();
-        int b = scan.nextInt();
+    private int area;
+    private int perimeter;
 
-        out.printf( "%d %d\n", a * b, a * 2 + b * 2  );
+    Rectangle(int height, int width) {
+        this.area = height * width;
+        this.perimeter = (height * 2) + (width * 2);
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%d %d", this.area, this.perimeter);
     }
 }
 
 public class TestRectangle {
-    public static void main( String... args) {
-        Rectangle test = new Rectangle();
-        test.run();
+    public static void main(String... args) {
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+
+        out.println(new Rectangle(a, b));
     }
 }
