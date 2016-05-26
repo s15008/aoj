@@ -8,11 +8,11 @@ class XCubic {
         this.volume = pow(side, 3);
     }
 
-    private int pow( int base, int exponent) {
-        if ( exponent < 2) {
+    private int pow(int base, int exponent) {
+        if (exponent < 2) {
             return base;
         }
-        return base * pow( base, exponent -1);
+        return base * pow(base, exponent - 1);
     }
 
     @Override
@@ -23,8 +23,8 @@ class XCubic {
 }
 
 public class TestXCubic {
-    public static void main( String... args) {
-        int x = new Scanner( System.in).nextInt();
+    public static void main(String... args) {
+        int x = new Scanner(System.in).nextInt();
 
         out.println(new XCubic(x));
     }

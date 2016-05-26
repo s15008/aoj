@@ -18,7 +18,7 @@ class HelloWorld {
 }
 
 public class TestHelloWorld {
-    public static void main( String... args) {
+    public static void main(String... args) {
         out.println(new HelloWorld());
     }
 }
