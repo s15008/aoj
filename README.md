@@ -7,7 +7,7 @@
     + [Watch](https://github.com/s15008/aoj/blob/master/TestWatch.java)
 
 + Branch on Condition
-    + Small, Large, or Equal
+    + [Small, Large, or Equal](https://github.com/s15008/aoj/blob/master/TestSmallLargeOrEqual.java)
     + Range
     + Sorting Three Numbers
     + Circle in a Rectange
