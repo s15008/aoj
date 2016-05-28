@@ -8,7 +8,7 @@
 
 + Branch on Condition
     + [Small, Large, or Equal](https://github.com/s15008/aoj/blob/master/TestSmallLargeOrEqual.java)
-    + Range
+    + [Range](https://github.com/s15008/aoj/blob/master/TestRange.java)
     + Sorting Three Numbers
     + Circle in a Rectange
 
