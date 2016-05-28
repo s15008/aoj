@@ -2,19 +2,24 @@ import java.util.Scanner;
 import static java.lang.System.out;
 
 class Watch {
-    public void run() {
-        int input = new Scanner( System.in ).nextInt();
-        int h = input / 3600;
-        int m = input % 3600 / 60;
-        int s = input % 60 % 60;
+    int second;
 
-        out.printf( "%d:%d:%d\n", h, m, s);
+    Watch(int second) {
+        this.second = second;
+    }
+
+    @Override
+    public String toString() {
+        int h = this.second / 3600;
+        int m = this.second % 3600 / 60;
+        int s = this.second % 60 % 60;
+        return String.format("%d:%d:%d", h, m, s);
     }
 }
 
 public class TestWatch {
-    public static void main( String... args) {
-        Watch test = new Watch();
-        test.run();
+    public static void main(String... args) {
+        int s = new Scanner(System.in).nextInt();
+        out.println(new Watch(s));
     }
 }
