@@ -14,7 +14,7 @@
 
 + Repetitive Processing
     + [Print Many Hello World](https://github.com/s15008/aoj/blob/master/TestPrintManyHelloWorld.java)
-    + ~~[print Test Cases](https://github.com/s15008/aoj/blob/master/TestPrintTestCases.java)~~
+    + [print Test Cases](https://github.com/s15008/aoj/blob/master/TestPrintTestCases.java)
     + ~~[Swapping Two Numbers](https://github.com/s15008/aoj/blob/master/TestSwappingTwoNumbers.java)~~
     + ~~[How Many Divisors?](https://github.com/s15008/aoj/blob/master/TestHowManyDivisors.java)~~
 
